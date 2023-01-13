@@ -23,7 +23,7 @@
         },
         "adminPassword": {
             "type": "securestring",
-            "defaultValue": "Demo!pass123",
+            "defaultValue": "remyP@ssw0rd",
             "metadata": {
                 "description": "The password for the administrator account of the new VM and domain"
             }
@@ -37,14 +37,14 @@
         },
         "PrimaryRG": {
             "type": "string",
-            "defaultValue": "ContosoRG1",
+            "defaultValue": "RemyRG1",
             "metadata": {
                 "description": "Resource group name of the primary region (must already exist)"
             }
         },
         "SecondaryRG": {
             "type": "string",
-            "defaultValue": "ContosoRG2",
+            "defaultValue": "RemyRG2",
             "metadata": {
                 "description": "Resource group name of the secondary region (must already exist)"
             }
